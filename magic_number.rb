@@ -1,6 +1,7 @@
 require 'to_words'
 
 def magic
+  print `clear`
   puts 'please insert a number'
   num1 = gets.to_i.to_words.gsub(" ", "").length
   while num1 != 4
